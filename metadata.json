@@ -1,0 +1,6 @@
+{
+  "name": "Autoservice Hazenberg",
+  "description": "Autoservice Hazenberg is een RDW-erkende autogarage gevestigd aan de Ambacht 8 in Grootegast. Gespecialiseerd in vakkundig onderhoud, APK-keuringen en alle autoreparaties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
