@@ -7,7 +7,7 @@ export const PhotoShowcase: React.FC = () => {
   const photos = [
     {
       id: 'werkplaats-monteurs',
-      src: '/facebook_photos/main_photo.jpg',
+      src: `${import.meta.env.BASE_URL}facebook_photos/main_photo.jpg`,
       title: 'Vakkundige inspectie op de hefbrug',
       location: 'Ambacht 8, Grootegast',
       tag: 'Werkplaats in actie',
@@ -16,7 +16,7 @@ export const PhotoShowcase: React.FC = () => {
     },
     {
       id: 'bedrijfspand',
-      src: '/facebook_photos/profile_or_logo.jpg',
+      src: `${import.meta.env.BASE_URL}facebook_photos/profile_or_logo.jpg`,
       title: 'Ons bedrijfspand in Grootegast',
       location: 'Ambacht 8, 9861 AM Grootegast',
       tag: 'Locatie & Pand',
@@ -25,7 +25,7 @@ export const PhotoShowcase: React.FC = () => {
     },
     {
       id: 'logo-detail',
-      src: '/facebook_photos/logo_chest_closer.png',
+      src: `${import.meta.env.BASE_URL}facebook_photos/logo_chest_closer.png`,
       title: 'Het originele ASH embleem',
       location: 'Werkkleding detail',
       tag: 'Origineel Logo',
