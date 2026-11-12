@@ -115,7 +115,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                 {/* Real Workshop Photo from Facebook Post */}
                 <div className="relative aspect-[3/4] sm:aspect-[4/5] overflow-hidden bg-slate-950">
                   <img
-                    src="/facebook_photos/main_photo.jpg"
+                    src={`${import.meta.env.BASE_URL}facebook_photos/main_photo.jpg`}
                     alt="Monteurs aan het werk bij Autoservice Hazenberg Grootegast met auto op hefbrug"
                     className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                     loading="eager"
@@ -165,7 +165,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                 <div className="p-3.5 bg-slate-950 border-t border-slate-800 flex items-center gap-3">
                   <div className="w-12 h-12 rounded-lg overflow-hidden shrink-0 border border-slate-700">
                     <img
-                      src="/facebook_photos/profile_or_logo.jpg"
+                      src={`${import.meta.env.BASE_URL}facebook_photos/profile_or_logo.jpg`}
                       alt="Pand Autoservice Hazenberg Ambacht 8 Grootegast"
                       className="w-full h-full object-cover"
                     />
